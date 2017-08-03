@@ -24,7 +24,15 @@ angular.module('RouteController', ['ngRoute'])
     controller  : 'ProductCtrl'
   })
 
-    .when('/contact', {
+  .when('/products/:product', {
+    templateUrl: function (stateParams){
+        return 'views/product/subproduct/' + stateParams.product + '.html';
+    },
+  
+    controller  : 'ProductCtrl'
+  })
+
+  .when('/contact', {
     templateUrl : 'views/contact/contact.html',
     controller  : 'ContactCtrl'
   })

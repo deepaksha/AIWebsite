@@ -48,7 +48,7 @@ angular.module('ProductController', [])
       		name: "LED Screen",
       		image: "./resource/img/products/led-screen.jpg",
       		description: "We are a reliable name in sourcing and supplying highly quality LED Display Board. Designed and manufactured in accordance with the changing trends and technological advancement, our range is known for effectively meeting the business promotion demands of varied industries.",
-      		path: "#/products/led-screen"
+      		path: "#/products/ledscreen"
       	},
       	{
       		name: "Speakers",
